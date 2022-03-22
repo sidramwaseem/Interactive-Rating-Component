@@ -51,4 +51,4 @@ This challenge indeed turned out to be a learning experience. Not only were I ab
 ## Author
 
 - Frontend Mentor - [sidramwaseem](https://www.frontendmentor.io/profile/sidramwaseem)
-- Twitter - [@yourusername](https://www.twitter.com/sidramwaseem)
+- Twitter - [sidramwaseem](https://www.twitter.com/sidramwaseem)
