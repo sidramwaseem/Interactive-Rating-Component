@@ -1,24 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  border: 3px solid green;
   background-color: hsl(216, 12%, 8%);
   color: #fff;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
 }
 
 .container {
-  border: 2px solid purple;
   max-width: 400px;
   width: 100%;
   padding: 30px;
@@ -26,41 +24,37 @@ body{
   background-color: hsl(213, 19%, 18%);
 }
 
-.star{
-  border:2px solid red;
+.star {
   margin-bottom: 30px;
   margin-top: 10px;
 }
 
-.star-icon{
-  border: 2px solid orangered;
-  padding:8px;
+.star-icon {
+  padding: 8px;
   border-radius: 50%;
   background-color: hsl(213, 14%, 25%);
 }
 
-.text h2{
+.text h2 {
   margin-bottom: 10px;
   font-weight: 700;
 }
 
-.text p{
+.text p {
   margin-bottom: 20px;
-  line-height:23px;
+  line-height: 23px;
   font-weight: 400;
   color: hsl(217, 12%, 63%);
   font-size: 15px;
 }
 
-.rating{
-  border: 2px solid red;
+.rating {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.rate-btn{
-  border:2px solid green;
+.rate-btn {
   border-radius: 55%;
   padding: 10px 15px;
   margin-right: 20px;
@@ -68,39 +62,50 @@ body{
   color: hsl(217, 12%, 63%);
 }
 
-.rate-btn:hover{
+.rate-btn:hover {
   cursor: pointer;
-  background-color:hsl(25, 97%, 53%);
+  background-color: hsl(25, 97%, 53%);
   color: #fff;
 }
 
-.button{
+.button {
   width: 100%;
-  border:2px solid green;
 }
-.btn{
+.btn {
   width: 100%;
-  padding:9px;
+  padding: 9px;
   border-radius: 16px;
   text-transform: uppercase;
-  background-color:hsl(25, 97%, 53%);
+  background-color: hsl(25, 97%, 53%);
   color: #fff;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 700;
 }
 
-.btn:hover{
+.btn:hover {
   cursor: pointer;
   background-color: #fff;
-  color:hsl(25, 97%, 53%);
+  color: hsl(25, 97%, 53%);
 }
 
-footer{
+footer {
   margin-top: 5px;
   color: hsl(217, 12%, 63%);
 }
 
-footer a{
+footer a {
   color: hsl(0, 0%, 35%);
   text-decoration: none;
+}
+
+/*** After submission ***/
+
+.onclick-container {
+  display:none;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: hsl(213, 19%, 18%);
 }
